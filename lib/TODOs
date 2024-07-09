@@ -1,0 +1,54 @@
+====================================================================================================
+
+Remove login credentials.
+Add back button everywhere.
+
+====================================================================================================
+
+Try it:
+Navigator.of(context)..pop()..pop()..pop();
+Either got subSub page or Product page -- id is null from home page
+
+====================================================================================================
+
+ERRORS
+00). When clicked logout it does not send to login screen and button freezes.
+01). Password change successfully but app remains on the same page does not log to login and should
+     be password obscure.
+02). Change password should have a loader.
+03). Cart page button should be visible on details page.
+04). Product detail page from view all page
+05). After removing item from wishlist it does not reflect on wishlist page(make it null)
+06). Product detail quantity textField
+
+====================================================================================================
+
+TODOS
+01). Add wishlist api on all the product listing page.
+02). Call wishlist page from profile.
+03). Category | Sub category | Sub sub Category check.
+04). Focus on the item sub category selected.
+05). Categories page calling from dashboard item.
+06). Dashboard event banner image from api and its calling.
+07). Remove view details from cart page(In the bottom left corner).
+08). Api error on checkout page when there is no address available.
+09). Go to detail page when clicking on product from anywhere (wishlist).
+10). Back button on every page.
+11). View image of detail page.
+12). Move to cart and delete item from wishlist.
+13). Creating stack of navigated pages(Address list).
+14). Create orders page.
+15). Create orders history page.
+16). Create track order page.
+17). Notification implementation.
+18). Payment gateway and success & failure page order details page.
+
+====================================================================================================
+code key add in category api
+iswishlist key add in product detail api
+country value in address api
+checkout api buy and collect from branch Data
+
+======
+select door delivery
+then delevery fees

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631248288347",
+    "project_id": "laroch-a0857",
+    "storage_bucket": "laroch-a0857.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631248288347:android:f9188c849d657658119d7e",
+        "android_client_info": {
+          "package_name": "la.roch.com.laroch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNTjsplKBHMsV-iL1kZpTiOSCLXLTgtq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

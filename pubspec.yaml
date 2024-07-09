@@ -1,0 +1,99 @@
+name: laroch
+
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.2
+  connectivity_plus: ^5.0.2
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.3
+  get_it: ^7.6.0
+  go_router: ^10.2.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.0
+  pretty_dio_logger: ^1.3.1
+  dio: ^5.3.2
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.18.0
+  cached_network_image: ^3.3.1
+  smooth_page_indicator: ^1.1.0
+  flutter_screenutil: ^5.9.0
+  get_storage: ^2.1.1
+  pinput: ^2.2.31
+  badges:
+  flutter_local_notifications: ^17.2.1+1
+  firebase_analytics:
+  easy_pdf_viewer: ^1.0.7
+  image_picker:
+  isw_mobile_sdk: ^1.1.3
+  webview_flutter:
+  scrollable_positioned_list: ^0.3.8
+  firebase_core:
+  firebase_messaging:
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_app_name:
+  name: "LaRoche"
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appIcon/icon.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/images/category/
+    - assets/images/new_ranges/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          style: italic
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helvetica/Roboto-Black.ttf
+        - asset: assets/fonts/helvetica/Roboto-Bold.ttf
+        - asset: assets/fonts/helvetica/Roboto-Medium.ttf
+        - asset: assets/fonts/helvetica/Roboto-Regular.ttf
+          style: italic
+    - family: Monoton
+      fonts:
+        - asset: assets/fonts/monoton/Monoton-Regular.ttf
+          style: italic
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter/Inter-Black.ttf
+        - asset: assets/fonts/Inter/Inter-Bold.ttf
+        - asset: assets/fonts/Inter/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter/Inter-Light.ttf
+        - asset: assets/fonts/Inter/Inter-Medium.ttf
+        - asset: assets/fonts/Inter/Inter-Regular.ttf
+          style: italic
+
